@@ -1,6 +1,7 @@
 # k8s
 
-##Pre-requisites
+# Pre-requisites
+
 # Disable firewalld on all nodes
 ansible all -a "systemctl disable firewalld" -u root -i inventory/mycluster/hosts.ini 
 
